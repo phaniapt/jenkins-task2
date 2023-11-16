@@ -6,7 +6,7 @@ pipeline {
         {
             steps
             {
-                git branch: 'main', credentialsId: '{AQAAABAAAAAwUOc1kr0Msj0LPN+NkU/0xUoLYd0dimeg/vwP7SjtC01F8ucZLl7l26IBeD32flaCSZ7xkg+pUf6uWfWHMWQ/WA==}', url: 'https://github.com/phaniapt/jenkins-task2.git'
+                git branch: 'phani', credentialsId: '{AQAAABAAAAAwUOc1kr0Msj0LPN+NkU/0xUoLYd0dimeg/vwP7SjtC01F8ucZLl7l26IBeD32flaCSZ7xkg+pUf6uWfWHMWQ/WA==}', url: 'https://github.com/phaniapt/jenkins-task2.git'
             }
         }
         stage('AddMvn'){
